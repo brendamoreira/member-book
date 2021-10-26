@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "api": "json-server members.json",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "json-server": "^0.17.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
